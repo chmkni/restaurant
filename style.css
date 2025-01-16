@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+   /* font-family: 'Cardo', serif;font-family: 'Raleway', sans-serif;*/
+font-family: 'Open Sans', sans-serif;
+
+}
+.container{
+    margin: 0px 166px;
+}
+
+.header{
+    background-image: url(images/bg.png);
+    height: 100vh;/* во весь экран по высоте*/
+    background-repeat: no-repeat;
+    background-size: cover;/*растяжение картинки во всеь монитор*/
+}
+
+.header-line{
+    padding-top: 50px;/*внутренный отступ*/
+    display: flex;
+    align-items: center; /*выравниваем по одной линии*/
+}
+.nav-item{
+    color: white;
+    text-decoration: none;/*убираем подчеркивание*/
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+}
+
+.cart{
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+}
